@@ -290,7 +290,7 @@ aspect-ratio:5/3;
 }
 
 .hero-link h3::after {
-  content: "↗";
+  content: "→";
   margin-left: 0.5ch;
 }
 
@@ -342,7 +342,7 @@ aspect-ratio:5/3;
 }
 
 .col__item1-link h3::after, .col__item2-link h3::after, .col__item3-link h3::after {
-  content: "↗";
+  content: "→";
   margin-left: 0.5ch;
 }
 
@@ -447,7 +447,7 @@ aspect-ratio:5/3;
 }
 
 .skinny-link h3::after {
-  content: "↗";
+  content: "→";
   margin-left: 0.5ch;
 }
 
