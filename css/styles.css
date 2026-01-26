@@ -133,9 +133,12 @@ h3 {
 main {
   max-width: 100%;
   padding: 3rem;
-  display: grid;
-  gap: var(--gutter);
+  display: block;
  }
+
+section {
+  margin-bottom: var(--gutter);
+}
 
 @media (max-width: 799px) {
   main {
