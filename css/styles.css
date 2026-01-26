@@ -231,11 +231,11 @@ section {
  }
 
 .hero img,
-.hero-text {
+.hero-text, .hero picture {
   grid-area: 1 / 1;
 }
 
-.hero img {
+.hero img, .hero picture {
   aspect-ratio:3/1;
   width: 100%;
   object-fit: cover;
@@ -255,11 +255,11 @@ section {
 @media (max-width: 799px) {
 
 
-.hero img{
+.hero img, .hero picture{
 aspect-ratio:5/3;
 }
 
-.hero img{
+.hero img, .hero picture{
   grid-area: 1;
 }
 
