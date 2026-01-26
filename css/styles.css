@@ -229,7 +229,6 @@ main {
   aspect-ratio:3/1;
   width: 100%;
   object-fit: cover;
-  height: auto;
 }
 
 .hero-text {
