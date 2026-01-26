@@ -291,6 +291,7 @@ aspect-ratio:5/3;
   display: grid;
   align-items: center;
   gap:var(--gutter);
+  min-width: 0;
 }
 
 .col--2 {
@@ -305,7 +306,7 @@ aspect-ratio:5/3;
   background-color: #ffffff;
   display:flex;
   flex-direction: column;
-  min-width: 0
+  min-width: 0;
    }
 
 .col__item1-link, .col__item2-link, .col__item3-link {
@@ -345,6 +346,7 @@ aspect-ratio:5/3;
   overflow: hidden;
   align-content:center;
   justify-content:center;
+  min-width: 0;
 }
 
 .col__main img {
