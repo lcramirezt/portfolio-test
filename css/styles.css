@@ -397,6 +397,7 @@ aspect-ratio:5/3;
   width: 100%;
   aspect-ratio: 10 / 1;
   overflow: hidden;
+  line-height: 0;
 }
 
 @media (max-width: 749px) {
@@ -441,6 +442,7 @@ aspect-ratio:5/3;
   padding: 0 var(--gutter);
   color: #111;
   pointer-events: none;
+  line-height: normal;
 }
 
 .skinny-link {
