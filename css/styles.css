@@ -134,6 +134,12 @@ main {
   gap: var(--gutter);
  }
 
+@media (max-width: 799px) {
+  main {
+    padding: 0;
+  }
+}
+
 /* Header */
 
 .site-header{
