@@ -49,13 +49,16 @@
   font-style: normal;
 }
 
-
 html {
   font-size: 12px;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+* {
+  outline: 1px solid rgba(255,0,0,.2);
 }
 
 /* Variables */
@@ -138,6 +141,10 @@ main {
   main {
     padding: 0;
   }
+
+:root {
+  --gutter: 1.25rem;
+}
 }
 
 /* Header */
