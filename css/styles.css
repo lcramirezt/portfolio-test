@@ -192,7 +192,6 @@ section {
 
 .site-footer{
   width: 100%;
-  aspect-ratio: 10/1;
   background: var(--accent-color);
   display:grid;
   padding:var(--gutter) var(--gutter) 0 calc(var(--gutter) + 5%);
