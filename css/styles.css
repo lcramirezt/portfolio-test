@@ -162,6 +162,7 @@ section {
   background: #FFF;
   display:grid;
   padding:0 var(--gutter);
+  margin-bottom: var(--gutter);
   grid-template-columns: auto 1fr;
 }
 
@@ -316,6 +317,18 @@ aspect-ratio:5/3;
 .col--2 {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.col--about {
+  grid-template-columns: repeat(2, 1fr);
+  margin-right:30%;
+  padding: var(--gutter);
+  gap: calc(2*var(--gutter));
+}
+
+.col--about .col__main{
+aspect-ratio:auto;
+}
+
 
 .col--3 {
   grid-template-columns: repeat(3, 1fr);
