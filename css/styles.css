@@ -411,6 +411,7 @@ aspect-ratio:auto;
   aspect-ratio: 10 / 1;
   overflow: hidden;
   line-height: 0;
+ background: #EEEEEE;
 }
 
 @media (max-width: 749px) {
