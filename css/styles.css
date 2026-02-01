@@ -187,7 +187,7 @@ section {
   padding: 0 1rem;
 }
 
-.site-header a, a:active, a:visited{
+.site-header a, .site-header a:active, .site-header a:visited{
   text-decoration:none;
   color:inherit;
 }
