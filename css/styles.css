@@ -187,7 +187,7 @@ section {
   padding: 0 1rem;
 }
 
-.site-header a, .site-header a:active, .site-header a:visited{
+.site-header a, .site-header a:active, .site-header a:visited {
   text-decoration:none;
   color:inherit;
 }
@@ -533,7 +533,7 @@ aspect-ratio:auto;
   align-items: center; 
 }
 
-.random-project a, .random-project a:active, .random-project a:visited {
+.random-project a {
   font-family: 'Literata L';
   font-size: var(--h1-font-size);
   line-height: var(--h1-line-height);
