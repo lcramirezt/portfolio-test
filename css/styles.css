@@ -104,17 +104,13 @@ h0 {
   font-weight: 700;
 }
 
-h1 {
+h1, a h1{
   font-family: 'Literata L';
   font-size: var(--h1-font-size);
   line-height: var(--h1-line-height);
   color: var(--accent-color);
 }
 
-h1 a{
-  color:inherit;
-  text-decoration:none;
-}
 
 h2 {
   font-family: 'Switzer';
