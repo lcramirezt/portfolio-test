@@ -104,7 +104,7 @@ h0 {
   font-weight: 700;
 }
 
-h1, a h1{
+h1 {
   font-family: 'Literata L';
   font-size: var(--h1-font-size);
   line-height: var(--h1-line-height);
@@ -523,12 +523,17 @@ aspect-ratio:auto;
   align-items: center; 
 }
 
-.random-project h1 {
+.random-project a {
+  font-family: 'Literata L';
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+  color: var(--accent-color);
   text-align: center;
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
   padding: 1rem 0 1.5rem 0;
   width: fit-content;
+  text-decoration:none;
 }
 
  .random-project img
