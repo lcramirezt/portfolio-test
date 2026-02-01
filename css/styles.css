@@ -168,7 +168,8 @@ section {
 }
 
 .site-header img{
-  height:70px;}
+  height:70px;
+  width:auto;}
 
 .site-header__name{
   justify-self:start;
@@ -188,7 +189,7 @@ section {
 
 @media (max-width: 799px) {
   .site-header img{
-    width: 80px;
+    width: 100px;
     height: auto;
 }
 }
