@@ -581,7 +581,6 @@ aspect-ratio:auto;
 }
 
 .type-tester-controls {
-  max-width: 65ch;
   margin: var(--gutter) 0 0 var(--gutter);
   display: flex;
   justify-self:end;
@@ -592,7 +591,6 @@ aspect-ratio:auto;
 
 
 .type-tester-purrrgatorio {
-  max-width: 65ch;
   margin: var(--gutter) 0 0 var(--gutter);
   font-family: 'Purrrgatorio';
 
@@ -647,3 +645,12 @@ aspect-ratio:auto;
   content: 'Escribe aquí…';
   opacity: 0.4;
 }
+
+@media (max-width: 799px) {
+  .type-tester-purrrgatorio{padding-left:5px;}
+  
+.type-tester-wrapper{
+padding-left:5px;}
+    
+}
+  
