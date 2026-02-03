@@ -516,7 +516,7 @@ aspect-ratio:auto;
 }
 }
 
-td {
+.text-block td {
   padding: 1rem 2rem 0 0;
   vertical-align: top;
 }
