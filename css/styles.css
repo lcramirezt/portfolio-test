@@ -155,6 +155,11 @@ section {
 }
 }
 
+td {
+  padding: 1rem 2rem 0 0;
+  vertical-align: top;
+}
+
 /* Header */
 
 .site-header{
@@ -516,10 +521,7 @@ aspect-ratio:auto;
 }
 }
 
-.text-block td {
-  padding: 1rem 2rem 0 0;
-  vertical-align: top;
-}
+
 
 /* Random Project */
 
