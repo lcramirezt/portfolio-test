@@ -384,6 +384,7 @@ aspect-ratio:auto;
 
 .col--about {
   grid-template-columns: repeat(1, 1fr);
+  margin-right:0;
 }
 
 .col--3 .col__item1{
