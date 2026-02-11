@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const phrases = [
     'Persefone comió seis semillas',
-    'Una revolución psíquica de magnitud casi inconcebible',
-    'Out of step with the world'
+    'La capital del Virreinato fue Santafé',
+    'Fruto persa agridulce y rojizo'
   ];
 
   const mediaQuery = window.matchMedia('(max-width: 799px)');
