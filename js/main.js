@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const tester = document.querySelector('.type-tester-granada');
 
   const phrases = [
-    'Persefone comió 6 semillas',
+    'Persefone comió seis semillas',
     'Una revolución psíquica de magnitud casi inconcebible',
     'Out of step with the world'
   ];
@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 function setDefaults(isMobile) {
-  const defaultSize = isMobile ? 96 : 200;
-  const maxSize = isMobile ? 160 : 300;
+  const defaultSize = isMobile ? 48 : 100;
+  const maxSize = isMobile ? 100 : 120;
 
   slider.max = maxSize;
   slider.value = defaultSize;
