@@ -573,6 +573,18 @@ aspect-ratio:auto;
   hyphens: auto;
 }
 
+.type-tester-granada {
+  margin: var(--gutter) 0 0 var(--gutter);
+  font-family: 'Granada';
+
+  padding: 0.5rem 0;
+  outline: none;
+  cursor: text;
+
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
 
 .type-tester-controls label {
   opacity: 0.6;
@@ -611,13 +623,13 @@ aspect-ratio:auto;
   border: none;
 }
 
-.type-tester-purrrgatorio:empty::before {
+.type-tester-purrrgatorio:empty::before, .type-tester-granada:empty::before {
   content: 'Escribe aquí…';
   opacity: 0.4;
 }
 
 @media (max-width: 799px) {
-  .type-tester-purrrgatorio{padding-left:5px;}
+  .type-tester-purrrgatorio, .type-tester-granada{padding-left:5px;}
   
 .type-tester-wrapper{
 padding-left:5px;}
