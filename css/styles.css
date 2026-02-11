@@ -548,8 +548,7 @@ aspect-ratio:auto;
 
 .type-tester-wrapper {
   padding: 0 var(--gutter);
-  max-width:65ch;
-}
+  }
 
 .type-tester-controls {
   margin: var(--gutter) 0 0 var(--gutter);
