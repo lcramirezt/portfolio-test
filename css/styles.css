@@ -513,7 +513,7 @@ aspect-ratio:auto;
 }
 
 .random-project a {
-  font-family: 'Literata L';
+  font-family: 'Switzer';
   font-size: var(--h1-font-size);
   line-height: var(--h1-line-height);
   color: var(--accent-color);
