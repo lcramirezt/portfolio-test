@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slider = document.getElementById('fontSize');
   const tester = document.querySelector('.type-tester-purrrgatorio');
+  const tester = document.querySelector('.type-tester-granada');
 
   const phrases = [
     'Todos los gatos son hermosos',
